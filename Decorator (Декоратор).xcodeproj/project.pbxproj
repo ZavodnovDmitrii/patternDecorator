@@ -13,6 +13,11 @@
 		32FEDE0123FE97CA009C99FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDDFF23FE97CA009C99FC /* Main.storyboard */; };
 		32FEDE0323FE97CC009C99FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDE0223FE97CC009C99FC /* Assets.xcassets */; };
 		32FEDE0623FE97CC009C99FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDE0423FE97CC009C99FC /* LaunchScreen.storyboard */; };
+		32FEDE1023FE999A009C99FC /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDE0F23FE999A009C99FC /* CarProtocol.swift */; };
+		32FEDE1223FE9A3D009C99FC /* Porcshe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDE1123FE9A3D009C99FC /* Porcshe.swift */; };
+		32FEDE1423FE9BE3009C99FC /* PorcsheDecotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDE1323FE9BE3009C99FC /* PorcsheDecotator.swift */; };
+		32FEDE1623FFB642009C99FC /* Roof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDE1523FFB642009C99FC /* Roof.swift */; };
+		32FEDE1823FFB70D009C99FC /* Disc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDE1723FFB70D009C99FC /* Disc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		32FEDE0223FE97CC009C99FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32FEDE0523FE97CC009C99FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32FEDE0723FE97CC009C99FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FEDE0F23FE999A009C99FC /* CarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		32FEDE1123FE9A3D009C99FC /* Porcshe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porcshe.swift; sourceTree = "<group>"; };
+		32FEDE1323FE9BE3009C99FC /* PorcsheDecotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorcsheDecotator.swift; sourceTree = "<group>"; };
+		32FEDE1523FFB642009C99FC /* Roof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roof.swift; sourceTree = "<group>"; };
+		32FEDE1723FFB70D009C99FC /* Disc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				32FEDE0223FE97CC009C99FC /* Assets.xcassets */,
 				32FEDE0423FE97CC009C99FC /* LaunchScreen.storyboard */,
 				32FEDE0723FE97CC009C99FC /* Info.plist */,
+				32FEDE0F23FE999A009C99FC /* CarProtocol.swift */,
+				32FEDE1123FE9A3D009C99FC /* Porcshe.swift */,
+				32FEDE1323FE9BE3009C99FC /* PorcsheDecotator.swift */,
+				32FEDE1523FFB642009C99FC /* Roof.swift */,
+				32FEDE1723FFB70D009C99FC /* Disc.swift */,
 			);
 			path = "Decorator (Декоратор)";
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FEDE1823FFB70D009C99FC /* Disc.swift in Sources */,
+				32FEDE1023FE999A009C99FC /* CarProtocol.swift in Sources */,
 				32FEDDFE23FE97CA009C99FC /* ViewController.swift in Sources */,
+				32FEDE1623FFB642009C99FC /* Roof.swift in Sources */,
+				32FEDE1423FE9BE3009C99FC /* PorcsheDecotator.swift in Sources */,
+				32FEDE1223FE9A3D009C99FC /* Porcshe.swift in Sources */,
 				32FEDDFA23FE97CA009C99FC /* AppDelegate.swift in Sources */,
 				32FEDDFC23FE97CA009C99FC /* SceneDelegate.swift in Sources */,
 			);
